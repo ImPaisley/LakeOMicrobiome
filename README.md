@@ -6,8 +6,9 @@ The primary goal of these analyses were to characterize the dominant taxa the ma
 Charts created include boxplots, scatterplots, stacked bar charts, nMDS plots, CCA plots, line plots, and any combinations.
 
 Files provided are:
-- ASV count table (which excludes any ASVs found in the blank controls, the blank control samples, any samples with a 
+- Batch corrected ASV count table (which excludes any ASVs found in the blank controls, the blank control samples, any samples with a 
 sequencing read count less than 10,000 reads, any mitchondrial ASVs, and any chloroplast ASVs)
+- NOT batch corrected ASV count table
 - Taxonomy table
 - Metadata table
 *** The rest of the files included were created within the R script ***
